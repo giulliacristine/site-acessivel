@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
- }
+    --laranja-claro:  #0b2c58;
+}
 
 body {
     font-size: 1rem;
@@ -21,13 +21,13 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color:  #0b2c58;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/WhatsApp\ Image\ 2025-08-20\ at\ 2.54.09\ AM.jpeg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -42,8 +42,8 @@ section {
 .img-inicio {
     position: absolute;
     right: 0;
-    top: 18rem;
-    width: 45rem;
+    top: 22rem;
+    width: 35rem;
     height: auto;
 }
 
@@ -76,9 +76,9 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 180px 180px;
+    background: url('img/Ícones\ de\ Construção\ em\ Formato\ Triangular.png') top right no-repeat,
+        url('img/Ferramentas\ e\ Projeto\ em\ Azul.png') bottom left no-repeat;
+    background-size: 285px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
 
@@ -105,12 +105,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180px 180px;
+    background: url('img/Ferramentas\ e\ Projeto\ em\ Azul.png') bottom right no-repeat;
+    background-size: 250px 164px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/WhatsApp\ Image\ 2025-08-20\ at\ 2.54.09\ AM.jpeg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -129,34 +129,11 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #0b2c58;
     border: none;
     font-weight: bold;
 }
 
 .form-control {
     background-color: #F1EDEF;
-}
-.menu-acessibilidade{
-    position: fixed;
-    top:2rem;
-    right:20px;
-    z-index: 1000;
-}
-.rotacao-botao{
-    transform: rotate(-90deg);
-    transform-origin: right center;
-}
-
-.opcoes-acessibilidade{
-    margin-top:10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.opcoes-acessibilidade button{
-    margin-bottom: 5px;
-}
-.apresenta-lista{
-    display: none;
 }
